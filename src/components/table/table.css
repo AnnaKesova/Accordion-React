@@ -1,0 +1,65 @@
+.tests {
+}
+
+.tests__naming {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.tests__title {
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tests__title_data {
+  width: 99px;
+}
+
+.tests__title_test {
+  width: 75px;
+}
+
+.tests__title_project {
+  width: 77px;
+}
+.tests__title_task {
+  width: 171px;
+}
+.tests__title_status {
+  width: 113px;
+}
+
+.tests__title_respon {
+width: 123px;
+}
+
+.tests__title_diment {
+  width: 134px;
+}
+
+.tests__title_best {
+  width: 101px;
+}
+
+.tests__title_comment {
+  width: 121px;
+}
+
+.tests__title_time {
+  width: 82px;
+}
+
+.tests__title_begin {
+  width: 105px;
+}
+
+
+
+
+
+
+
+

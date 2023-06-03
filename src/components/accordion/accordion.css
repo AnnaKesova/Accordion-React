@@ -1,0 +1,41 @@
+.accordion {
+  width: 100%;
+  max-width: 600px;
+  margin: 18px auto;
+}
+
+.accordion__heading {
+  background-color: #3f475d;
+  padding: 14px 0;
+}
+
+.container__naming {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f475d;
+  color: #fff;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.container__text {
+  color: #fff;
+}
+
+.accordion-title:hover {
+  background-color: #3ab4cc;
+}
+
+.accordian__content {
+  background-color: #39b9d2;
+  height: 0;
+  opacity: 0;
+  display: flex;
+  overflow: hidden;
+  transition: all 600ms ease-in-out;
+}
+
+.show {
+  height: 180px;
+  opacity: 1;
+}
