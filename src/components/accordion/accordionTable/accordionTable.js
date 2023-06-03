@@ -1,6 +1,5 @@
 import "../../table/table.css";
-import "./accordionTable.css"
-
+import "./accordionTable.css";
 
 const AccordionTable = () => {
   return (
@@ -18,14 +17,17 @@ const AccordionTable = () => {
         <p>Прозвонить Копьева</p>
       </li>
       <li className="tests__title tests__title_status">
-        <label className="lala">
         <select id="mySelect" className="select">
-          <option value="yes" className="test__choose">Выполнено</option>
-          <option value="pause"  className= "test__choose" >На паузе</option>
-          <option value="during" className="test__choose">В работе</option>
+          <option value="yes" className="test__choose">
+            Выполнено
+          </option>
+          <option value="pause" className="test__choose">
+            На паузе
+          </option>
+          <option value="during" className="test__choose">
+            В работе
+          </option>
         </select>
-        </label>
-        
       </li>
       <li className="tests__title tests__title_respon">
         <p>Иванов В.А</p>
