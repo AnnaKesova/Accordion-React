@@ -1,25 +1,24 @@
 .accordion {
   width: 100%;
-  max-width: 600px;
-  margin: 18px auto;
-}
-
-.accordion__heading {
-  background-color: #3f475d;
-  padding: 14px 0;
+  background-color: #e1e1fb;
 }
 
 .container__naming {
   display: flex;
-  justify-content: space-between;
-  background-color: #3f475d;
-  color: #fff;
-  padding: 0 20px;
+  padding: 20px;
   align-items: center;
 }
 
 .container__text {
-  color: #fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #373745;
+  margin: 0 20% 0 0;
+  width: 15%;
 }
 
 .accordion-title:hover {
@@ -36,6 +35,14 @@
 }
 
 .show {
-  height: 180px;
+  height: 200px;
   opacity: 1;
+}
+
+.container__button {
+  width: 10px;
+  height: 6px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
